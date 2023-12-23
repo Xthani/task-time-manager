@@ -1,5 +1,11 @@
+import { TaskInput } from "components/TaskInput";
+
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <TaskInput />
+    </div>
+  );
 };
 
 export default App;
